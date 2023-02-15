@@ -14,6 +14,7 @@ public class Product {
 	private String madein;
 	private String brand;
 	private float price;
+	/* ce commentaire vient de pull action */
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	public int getId() {
